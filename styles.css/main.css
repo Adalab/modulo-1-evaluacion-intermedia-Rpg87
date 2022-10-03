@@ -25,14 +25,15 @@
 }
 .header .contenedor-botones {
     text-align: center;
-    color: #4a4a4a;
     font-family: 'Rubik', sans-serif;
     padding-bottom: 13px;
     list-style: none;
     
 }
-.botones {
-    text-decoration: none; /* revisar motivo de no funcionar. Colocado aquí y en .header .contenedor-botones*/
+
+.enlace {
+    text-decoration: none;
+    color: #4a4a4a;
 
 }
 .blog {
