@@ -1,4 +1,54 @@
 :root {
     font-family: 'Rubik', sans-serif;
+    
+
+}
+
+.header {
+    position:fixed;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    width: 100vw;
+    height: 100wh;
+    background-color: white;
+
+}
+
+.header .logo {
+    width: 155px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.header .contenedor-botones {
+    display: flex;
+    
+    
+    color: #4a4a4a;
+}
+.botones {
+    list-style: none;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3CDBC0;
+    width: 100vw;
+    height: 100vh;
+    
+
+    
+}
+
+.title {
+    width: 7ch;
+    font-family: 'Rubik', sans-serif;
+    color: #FFFFFF;
+    font-size: 30px;
 
 }
